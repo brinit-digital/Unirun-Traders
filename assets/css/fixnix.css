@@ -243,7 +243,7 @@ ul {
   font-size: 16px;
   font-weight: 700;
   padding: 16px 43px 14px;
-  border-radius: 4px;
+  border-radius: 13px;
   transition: all 0.5s linear;
   overflow: hidden;
   z-index: 1;
@@ -571,6 +571,7 @@ ul {
 .main-menu {
   position: relative;
   display: block;
+  height: 115px;
 }
 
 .main-menu__wrapper {
@@ -1597,6 +1598,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: -5px;
 }
 
 .main-menu-two__left {
@@ -2515,6 +2517,7 @@ ul {
   position: relative;
   display: block;
   margin-right: 82px;
+
 }
 
 .about-one__img {
@@ -2545,7 +2548,7 @@ ul {
 
 .about-one__img img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 15px;
   transition: all 500ms linear;
   transition-delay: 0.2s;
 }
@@ -3507,13 +3510,13 @@ ul {
 .skill-one__right-img {
   position: relative;
   display: block;
-  border-radius: 7px;
-  background-color: var(--fixnix-base);
+  border-radius: 15px;
+  background-color: #cf1f1f80;
 }
 
 .skill-one__right-img img {
   width: 100%;
-  border-radius: 7px;
+  border-radius: 15px;
   mix-blend-mode: multiply;
 }
 
@@ -3616,7 +3619,7 @@ ul {
   max-width: 195px;
   background-color: var(--fixnix-base);
   padding: 52px 24px 52px;
-  border-radius: 6px;
+  border-radius: 15px;
   transform: translateY(-50%);
   z-index: 2;
 }
@@ -4066,6 +4069,7 @@ ul {
 .footer-widget__logo {
   position: relative;
   display: block;
+  filter: brightness(0.5);
 }
 
 .footer-widget__about-text-box {
@@ -4512,7 +4516,7 @@ ul {
   box-shadow: 0px 8px 29px 0px rgba(0, 0, 0, 0.1);
   justify-content: space-between;
   padding: 30px 55px 27px;
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 15px;
   margin-left: 60px;
   z-index: 4;
 }
@@ -4579,26 +4583,26 @@ ul {
 .about-two__img {
   position: relative;
   display: block;
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 13px;
 }
 
 .about-two__img img {
   width: 100%;
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 13px;
 }
 
 .about-two__img-two {
   position: absolute;
   bottom: -191px;
   right: -170px;
-  background-color: var(--fixnix-base);
-  border-radius: var(--fixnix-bdr-radius);
+  background-color: #ff9f9f;
+  border-radius: 13px;
 }
 
 .about-two__img-two img {
   width: auto;
   mix-blend-mode: multiply;
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 13px;
 }
 
 .about-two__video-link {
@@ -5086,7 +5090,7 @@ ul {
   display: block;
   overflow: hidden;
   padding: 35px 35px 35px;
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 15px;
   z-index: 1;
 }
 
@@ -7339,10 +7343,12 @@ ul {
 .team-one__img {
   position: relative;
   display: block;
-  border-radius: 6px;
-  background-color: var(--fixnix-base);
+  border-radius: 15px;
+  /* background-color: var(--fixnix-base); */
   overflow: hidden;
   z-index: 1;
+  padding: 30px;
+  box-shadow: ;
 }
 
 .team-one__img:before {
@@ -7352,7 +7358,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 100%;
-  background-color: var(--fixnix-base);
+  /* background-color: var(--fixnix-base); */
   border-radius: 6px;
   mix-blend-mode: multiply;
   transition: all 600ms ease 100ms;
@@ -7874,6 +7880,7 @@ ul {
   display: block;
   background-color: var(--fixnix-primary);
   padding: 35px 40px 40px;
+  border-radius: 15px;
 }
 
 .contact-page__shape-1 {
@@ -8061,7 +8068,7 @@ ul {
   border: none;
   height: 550px;
   width: 100%;
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -10395,7 +10402,7 @@ ul {
   padding: 40px 30px 32px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 8px 29px 0px rgba(0, 0, 0, 0.1);
-  border-radius: var(--fixnix-bdr-radius);
+  border-radius: 15px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -10584,12 +10591,13 @@ ul {
   right: 0;
   width: 40%;
   bottom: 0;
-  background-color: var(--fixnix-base);
+  background-color: #cf1f1f80;
   background-blend-mode: color-burn;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
   z-index: -1;
+  border-radius: 13px 0px 0px 13px;
 }
 
 .welcome-one__left {
@@ -10655,7 +10663,7 @@ ul {
 
 .welcome-one__right-img img {
   width: 100%;
-  border-radius: 7px;
+  border-radius: 15px;
 }
 
 .welcome-one__video-link {
@@ -10916,17 +10924,20 @@ ul {
 .brand-one .swiper-slide img {
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.20;
+  /* opacity: 0.20; */
   max-width: 100%;
 }
 
 .brand-one .swiper-slide img:hover {
-  opacity: 0.60;
+  opacity: 0.80;
+  transform: scale(1.1);
 }
 
 
 
-
+.logo-img{
+  height: 80px;
+}
 
 
 
