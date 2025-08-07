@@ -4072,6 +4072,9 @@ ul {
   filter: brightness(0.5);
 }
 
+.footer-widget__logo img{
+  filter: brightness(0.5);
+}
 .footer-widget__about-text-box {
   position: relative;
   display: block;
@@ -7348,7 +7351,6 @@ ul {
   overflow: hidden;
   z-index: 1;
   padding: 30px;
-  box-shadow: ;
 }
 
 .team-one__img:before {
