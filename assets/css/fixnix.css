@@ -4072,6 +4072,9 @@ ul {
   filter: brightness(0.5);
 }
 
+.footer-widget__logo img{
+  filter: brightness(0.5);
+}
 .footer-widget__about-text-box {
   position: relative;
   display: block;
