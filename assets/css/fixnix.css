@@ -4341,10 +4341,12 @@ ul {
 
 .site-footer__bottom-inner {
   position: relative;
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  justify-content: center;
+  /* justify-content: start; */
 }
+
+
 
 .site-footer__bottom-text {
   font-size: 16px;
@@ -4357,6 +4359,7 @@ ul {
   color: var(--fixnix-base);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  font-weight: 9  00;
 }
 
 .site-footer__bottom-text a:hover {
