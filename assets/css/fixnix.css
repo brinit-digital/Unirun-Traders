@@ -2564,11 +2564,12 @@ ul {
   bottom: 0;
   left: 0;
   right: 168px;
-  background-color: var(--fixnix-base);
+  background-color: #ffffff61;
   padding: 48px 30px 45px;
   border-bottom-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-right-radius: 15px;
   z-index: 3;
+  backdrop-filter: blur(10px);
 }
 
 .about-one__our-goal-sub-title {
