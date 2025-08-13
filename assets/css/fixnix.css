@@ -5166,7 +5166,7 @@ ul {
 
 .testimonial-two__info {
   position: relative;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
@@ -5182,7 +5182,7 @@ ul {
 }
 
 .testimonial-two__content {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .testimonial-two__client-name {
