@@ -7339,7 +7339,7 @@ ul {
 .team-one__single {
   position: relative;
   display: block;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .team-one__img-box {
@@ -7354,7 +7354,7 @@ ul {
   /* background-color: var(--fixnix-base); */
   overflow: hidden;
   z-index: 1;
-  padding: 30px;
+  padding: 10px;
 }
 
 .team-one__img:before {
@@ -10945,6 +10945,11 @@ ul {
   height: 80px;
 }
 
+@media (max-width: 1199px) {
+  .swiper-wrapper{
+    height: 90vh;
+  }
+}
 
 
 
