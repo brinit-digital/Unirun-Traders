@@ -1091,7 +1091,7 @@ ul {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--fixnix-black);
+  background-color: #cf1f1f;
   z-index: 10;
   position: relative;
   height: 100%;
