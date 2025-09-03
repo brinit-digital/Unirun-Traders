@@ -3513,6 +3513,7 @@ ul {
   display: block;
   border-radius: 15px;
   background-color: #cf1f1f80;
+  overflow: hidden;
 }
 
 .skill-one__right-img img {
@@ -5074,7 +5075,7 @@ ul {
 .testimonal-two {
   position: relative;
   display: block;
-  padding: 120px 0 188px;
+  padding: 90px 0 150px;
 }
 
 .testimonial-two__carousel {
@@ -10396,7 +10397,7 @@ ul {
 .feature-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 90px 0 90px;
   z-index: 1;
 }
 
