@@ -3501,11 +3501,13 @@ ul {
   position: relative;
   display: block;
   margin-left: 145px;
+  overflow: hidden;
 }
 
 .skill-one__right-img-box {
   position: relative;
   display: block;
+  overflow: hidden;
 }
 
 .skill-one__right-img {
@@ -3520,6 +3522,7 @@ ul {
   width: 100%;
   border-radius: 15px;
   mix-blend-mode: multiply;
+  overflow: hidden;
 }
 
 .skill-one__video-link {
